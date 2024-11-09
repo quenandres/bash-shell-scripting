@@ -1,15 +1,16 @@
-# `Curso de Scripting BASH SHELL`
+# `Curso de Scripting Bash - shell`
 <a id="item"></a>
 
 ## Índice de contenidos
-* [INTRODUCCIÓN ¿QUÉ ES UN SCRIPT Y PARA QUÉ SIRVE?](#item1)
+* [Introducción ¿Qué es un script y para qué sirve?](#item1)
 * [Curso de VIM](#item2)
-* [VARIABLES DE ENTORNO](#item3)
+* [Variables de entorno](#item3)
 * [Crear script](#item4)
+* [Bash - shell - Variables](#item5)
 
 <a id="item1"></a>
 
-## `INTRODUCCIÓN ¿QUÉ ES UN SCRIPT Y PARA QUÉ SIRVE?`
+## `Introducción ¿Qué es un script y para qué sirve?`
 [Inicio](#item)
 
 #### Script
@@ -85,7 +86,7 @@
 
 <a id="item3"></a>
 
-## `VARIABLES DE ENTORNO`
+## `Variables de entorno`
 [Inicio](#item)
 
 Imprimir variables de entorno
@@ -118,5 +119,12 @@ pwd # Muestra el directorio actual
 cd $HOME
 echo "Dirigiendo a HOME"
 pwd # Muestra el directorio actual
-
 ```
+
+<a id="item5"></a>
+
+## `Bash - shell - VARIABLES`
+[Inicio](#item)
+ 
+
+min 14:33
