@@ -12,7 +12,7 @@
 
 #### Script
 - Secuencia de comandos
-- Un programa relaticamente simple
+- Un programa relativamente simple
 - Generalmente no se compilan
 - Son identificados por el sistema a través de encabezados
 ```bash
@@ -41,18 +41,44 @@
 
 > h -> izquierda
 
-> 0 -> final de la linea
+> 0 -> inicio de la linea
 
-> w -> inicio de palabra la siguiente palabra
+> $ -> final de la linea
 
-> b -> inicio de palabra la anterior palabra
+> w -> inicio de la siguiente palabra
+
+> b -> inicio de la anterior palabra
 
 > e -> al final de la palabra
 
 > '*' -> Busca palabras iguales a la que se esta seleccionando
 
+> set number | set nu -> Nos muestra los numeros de las lineas 
+
+> o -> Crea una nueva linea hacia abajo
+
+> O -> Crea una nueva linea hacia arriba
+
+> x -> Elimina caracter 
+
+> r -> Reemplaza caracter
+
+> p -> Pega lo que se tenga copiado
+
+> n -> Se mueve a la siguiente palabra encontrada
+
 #### *Combinaciones*
 
 > 8 + j #Se mueve 8 espacios hacia abajo
+
+> 10 + G # Nos traslada a la linea 10 del documento (Linea especifica)
+
+> d + w #Elimina palabra
+
+> d + d #Elimina linea / Pero realmente lo que hace es cortar
+
+> y + y #Copia la linea
+
+> :/palabra #Buscar la palabra
 
 min 18.

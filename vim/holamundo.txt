@@ -72,12 +72,17 @@ otra vez editado.
 .
 este es un mensaje en vim
 otro ejemplo del texto
+
+otro ejemplo del texto
+
+
+
 escribiendo a ver que sucede
-
-
-editado
-
+escribiendo a ver que sucede
 otra vez editado.
+
+O
+ hola graando
 .
 este es un mensaje en vim
 otro ejemplo del texto
