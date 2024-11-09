@@ -4,6 +4,7 @@
 ## Índice de contenidos
 * [INTRODUCCIÓN ¿QUÉ ES UN SCRIPT Y PARA QUÉ SIRVE?](#item1)
 * [Curso de VIM](#item2)
+* [VARIABLES DE ENTORNO](#item3)
 
 <a id="item1"></a>
 
@@ -81,4 +82,21 @@
 
 > :/palabra #Buscar la palabra
 
-min 18.
+<a id="item3"></a>
+
+## `VARIABLES DE ENTORNO`
+[Inicio](#item)
+
+Imprimir variables de entorno
+```bash
+printenv
+```
+
+Imprimir variables de entorno en especificio
+```bash
+echo $HOME
+```
+Inicializar variable
+```bash
+export MIVARIABLE=$PATH
+```
