@@ -5,6 +5,7 @@
 * [INTRODUCCIÓN ¿QUÉ ES UN SCRIPT Y PARA QUÉ SIRVE?](#item1)
 * [Curso de VIM](#item2)
 * [VARIABLES DE ENTORNO](#item3)
+* [Crear script](#item4)
 
 <a id="item1"></a>
 
@@ -99,4 +100,23 @@ echo $HOME
 Inicializar variable
 ```bash
 export MIVARIABLE=$PATH
+```
+
+<a id="item4"></a>
+
+## `Crear un script en bash`
+[Inicio](#item)
+
+_mi_primer_script.sh_
+
+```sh
+# !/bin/bash
+# Author: Quenandres
+# Primer script shell
+
+pwd # Muestra el directorio actual
+cd $HOME
+echo "Dirigiendo a HOME"
+pwd # Muestra el directorio actual
+
 ```
