@@ -25,9 +25,25 @@ echo "$numA > $numB = " $((numA > numB))
 
 echo "$numA < $numB = " $((numA < numB))
 
-echo "$numA * $numB = " $((numA * numB))
+echo "$numA >= $numB = " $((numA >= numB))
 
-echo "$numA / $numB = " $((numA / numB))
+echo "$numA <= $numB = " $((numA <= numB))
+
+echo "$numA == $numB = " $((numA == numB))
+
+echo "$numA != $numB = " $((numA != numB))
+
+
+
+
+echo "Operadores de asignación entre $numA y $numB"
+echo "$numA += $numB = " $((numA += numB))
+
+echo "$numA -= $numB = " $((numA -= numB))
+
+echo "$numA *= $numB = " $((numA *= numB))
+
+echo "$numA /= $numB = " $((numA /= numB))
 
 
 
