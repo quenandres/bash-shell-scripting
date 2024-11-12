@@ -7,6 +7,7 @@
 * [Variables de entorno](#item3)
 * [Crear script](#item4)
 * [Bash - shell - Variables](#item5)
+* [Bash - shell - Parametros](#item6)
 
 <a id="item1"></a>
 
@@ -126,5 +127,71 @@ pwd # Muestra el directorio actual
 ## `Bash - shell - VARIABLES`
 [Inicio](#item)
  
+ ```bash
+ # !/bin/bash
+# Author: Jhonatan Mejia
+# Enseñanza de variables en script
 
-min 14:33
+
+jhonatan="hola mi nombre es jhonatan estoy dentro del script"
+numA=15
+numB=5
+echo $JHONATAN #Variable de entorno
+echo $jhonatan #Variable de usuario
+
+echo "operadores aritmeticos $numA y $numB"
+echo "$numA + $numB = " $((numA + numB))
+
+echo "$numA - $numB = " $((numA - numB))
+
+echo "$numA * $numB = " $((numA * numB))
+
+echo "$numA / $numB = " $((numA / numB))
+
+echo "operadores relacionales  $numA y $numB"
+echo "$numA > $numB = " $((numA > numB))
+
+echo "$numA < $numB = " $((numA < numB))
+
+echo "$numA >= $numB = " $((numA >= numB))
+
+echo "$numA <= $numB = " $((numA <= numB))
+
+echo "$numA == $numB = " $((numA == numB))
+
+echo "$numA != $numB = " $((numA != numB))
+
+echo "Operadores de asignación entre $numA y $numB"
+echo "$numA += $numB = " $((numA += numB))
+
+echo "$numA -= $numB = " $((numA -= numB))
+
+echo "$numA *= $numB = " $((numA *= numB))
+
+echo "$numA /= $numB = " $((numA /= numB))
+ ```
+
+<a id="item6"></a>
+
+## `Bash - shell - Parametros`
+[Inicio](#item)
+
+```bash
+# !/bin/bash
+nombre=$1
+apellido=$2
+ubicacion=$(pwd)
+echo "Hola mi nombre es: $nombre $apellido"
+echo "La cantidad de parametros enviadas son $#"
+echo "Los parametros enviados por el usuario son: $*"
+echo $ubicacion
+```
+
+```bash
+./parametros.sh Jhonatan Mejia
+./parametros.sh "Jhonatan" "Mejia"
+# Hola mi nombre es: jhonatan mejia
+# La cantidad de parametros enviadas son 2
+# Los parametros enviados por el usuario son: jhonatan mejia
+# /mnt/d/proyectos/personal/youtube/dfbastidas/bash-shell-scripting/scripting
+```
