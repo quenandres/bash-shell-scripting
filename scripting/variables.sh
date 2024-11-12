@@ -1,4 +1,4 @@
-# !/bin/bash
+#!/bin/bash
 # Author: Jhonatan Mejia
 # Enseñanza de variables en script
 

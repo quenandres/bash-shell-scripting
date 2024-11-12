@@ -1,4 +1,4 @@
-# !/bin/bash
+#!/bin/bash
 # Author: Quenandres
 # Primer script shell
 

@@ -8,6 +8,7 @@
 * [Crear script](#item4)
 * [Bash - shell - Variables](#item5)
 * [Bash - shell - Parametros](#item6)
+* [Bash - shell - Scripts dinámicos](#item7)
 
 <a id="item1"></a>
 
@@ -194,4 +195,25 @@ echo $ubicacion
 # La cantidad de parametros enviadas son 2
 # Los parametros enviados por el usuario son: jhonatan mejia
 # /mnt/d/proyectos/personal/youtube/dfbastidas/bash-shell-scripting/scripting
+```
+
+<a id="item7"></a>
+
+## `Bash - shell - Scripts Dinámicos`
+[Inicio](#item)
+
+```bash
+#!/bin/bash
+
+name=""
+age=0
+
+read -p "Ingresa tu nombre: " name
+read -p "Ingresa tu edad: " age
+
+echo "Hola mi nombre es $name, tengo $age"
+
+# Ingresa tu nombre: jhonatan
+# Ingresa tu edad: 29
+# Hola mi nombre es jhonatan, tengo 29
 ```
