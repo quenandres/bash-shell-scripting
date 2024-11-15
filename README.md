@@ -9,6 +9,7 @@
 * [Bash - shell - Variables](#item5)
 * [Bash - shell - Parametros](#item6)
 * [Bash - shell - Scripts dinámicos](#item7)
+* [Bash - shell - Condicionales](#item8)
 
 <a id="item1"></a>
 
@@ -216,4 +217,41 @@ echo "Hola mi nombre es $name, tengo $age"
 # Ingresa tu nombre: jhonatan
 # Ingresa tu edad: 29
 # Hola mi nombre es jhonatan, tengo 29
+```
+
+<a id="item8"></a>
+
+## `Bash - shell - Condicionales`
+[Inicio](#item)
+
+|Nombre|Descripcion|
+|--|--|
+|-eq|Is equal to|
+|-ne|Is not equal to|
+|-gt|Is greater than|
+|-ge|Is greater than or equal to|
+|-lt|Is less than|
+|-le|Is less than or equal to|
+
+```bash
+#!/bin/bash
+
+name=""
+age=0
+
+read -p "Ingresa tu nombre: " name
+read -p "Ingresa tu edad: " age
+
+echo "Hola mi nombre es $name, tengo $age"
+
+
+if (( $age >= 18 )); then
+    echo "Eres mayor de edad"
+fi
+
+if [ $age -ge 18 ]; then
+    echo "Eres mayor de edad"
+else
+    echo "Eres menor de edad"
+fi
 ```
